@@ -1,12 +1,12 @@
 init:
-	@./scripts/bash/terraform.sh script_terraform_init
+	@./devops/scripts/bash/terraform.sh script_terraform_init
 plan:
-	@./scripts/bash/terraform.sh script_terraform_plan
+	@./devops/scripts/bash/terraform.sh script_terraform_plan
 apply:
-	@./scripts/bash/terraform.sh script_terraform_apply
+	@./devops/scripts/bash/terraform.sh script_terraform_apply
 validate:
-	@./scripts/bash/terraform.sh script_terraform_validate
+	@./devops/scripts/bash/terraform.sh script_terraform_validate
 fmt:
-	@./scripts/bash/terraform.sh script_terraform_fmt
+	@./devops/scripts/bash/terraform.sh script_terraform_fmt
 lint:
-	@./scripts/bash/terraform.sh script_terraform_lint
+	@./devops/scripts/bash/terraform.sh script_terraform_lint
